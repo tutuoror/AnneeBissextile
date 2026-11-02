@@ -14,13 +14,13 @@ class Program
         Console.WriteLine("quel annee voulez-vous verifier ?");
         annee = Convert.ToInt32(Console.ReadLine());
 
-        if (annee % 4 != 0);
+        if (annee % 4 != 0)
             {
-            Console.WriteLine("l'annee" + annee + "est pas une annee bissextile");
+            Console.WriteLine("l'annee " + annee + " est pas une annee bissextile");
             }
-            else if (annee % 4 == 0);
+            else if (annee % 4 == 0)
             {
-            Console.WriteLine("l'annee" + annee + "est une annee bissextile");
+            Console.WriteLine("l'annee " + annee + " est une annee bissextile");
             }
     }
 }
